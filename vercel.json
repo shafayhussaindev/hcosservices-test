@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm --prefix hcos-website ci",
+  "buildCommand": "npm --prefix hcos-website run build:static",
+  "outputDirectory": "hcos-website/dist",
+  "cleanUrls": true
+}
