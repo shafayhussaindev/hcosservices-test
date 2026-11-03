@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "business-process-outsource",
+    "title": "Business Process Outsource (BPO)",
+    "image": "assets/img/svc-bpo.webp",
+    "alt": "Business Process Outsource team at work",
+    "short": "We manage essential business processes",
+    "full": "We manage essential business processes efficiently, allowing organizations to focus on their core priorities while we deliver timely, reliable execution.",
+    "icon": "<path d=\"M4 7h16M4 12h16M4 17h9\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"/><circle cx=\"18.5\" cy=\"17\" r=\"2.5\" stroke=\"currentColor\" stroke-width=\"1.7\"/>"
+  },
+  {
+    "slug": "payroll-outsourcing",
+    "title": "Payroll Outsourcing",
+    "image": "assets/img/svc-payroll.webp",
+    "alt": "Payroll outsourcing specialists reviewing records",
+    "short": "Accurate salary processing, statutory compliance and complete confidentiality",
+    "full": "End-to-end payroll management services ensuring accurate salary processing, statutory compliance, timely disbursements, and complete confidentiality—allowing organizations to focus on their core operations with confidence.",
+    "icon": "<rect x=\"3\" y=\"6\" width=\"18\" height=\"12\" rx=\"2.5\" stroke=\"currentColor\" stroke-width=\"1.7\"/><circle cx=\"12\" cy=\"12\" r=\"2.6\" stroke=\"currentColor\" stroke-width=\"1.7\"/><path d=\"M6.5 12h.01M17.5 12h.01\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "slug": "professional-staffing-workforce-solutions",
+    "title": "Professional Staffing &amp; Workforce Solutions",
+    "image": "assets/img/svc-staffing.webp",
+    "alt": "Professional staffing and workforce team",
+    "short": "Reliable manpower supply across all levels from leadership",
+    "full": "Reliable manpower supply across all levels—from leadership and administrative staff to operational, warehouse, and facility support—tailored to your business needs.",
+    "icon": "<circle cx=\"9\" cy=\"8\" r=\"3.2\" stroke=\"currentColor\" stroke-width=\"1.7\"/><path d=\"M3.5 19.5c0-3 2.5-5 5.5-5s5.5 2 5.5 5\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"/><path d=\"M16 6.2a3 3 0 0 1 0 5.6M17.5 19.5c0-2.2-.9-3.9-2.3-4.7\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "slug": "corporate-governance",
+    "title": "Corporate Governance",
+    "image": "assets/img/svc-governance.webp",
+    "alt": "Corporate governance meeting",
+    "short": "Comprehensive tax compliance and legal tax management services",
+    "full": "Comprehensive tax compliance and legal tax management services, ensuring accurate handling of income, withholding, and sales taxes in full accordance with all federal and provincial legal and regulatory requirements.",
+    "icon": "<path d=\"M12 3.2 20 6.6v5c0 4.6-3.2 7.6-8 9.2-4.8-1.6-8-4.6-8-9.2v-5L12 3.2Z\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><path d=\"m9 12 2.2 2.2L15.2 10\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+  },
+  {
+    "slug": "event-management-conferences-seminars",
+    "title": "Event Management – Conferences &amp; Seminars",
+    "image": "assets/img/svc-events.webp",
+    "alt": "Conference audience at an HCOS event",
+    "short": "Strategic planning and seamless execution of conferences",
+    "full": "Strategic planning and seamless execution of conferences, seminars, and professional events that drive engagement, learning, and impactful networking.",
+    "icon": "<path d=\"M12 3v6.5\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"/><path d=\"M8 20.5c0-2.6 1.8-4.5 4-4.5s4 1.9 4 4.5\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"12.6\" r=\"3.2\" stroke=\"currentColor\" stroke-width=\"1.7\"/><path d=\"M4.5 8.5 7 10M19.5 8.5 17 10\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"/>"
+  },
+  {
+    "slug": "training-in-house-training",
+    "title": "Training &amp; In-House Training",
+    "image": "assets/img/svc-training.webp",
+    "alt": "In-house training session in progress",
+    "short": "Comprehensive technical and soft-skills training programs, including leadership",
+    "full": "Comprehensive technical and soft-skills training programs, including leadership, HRM, HSE, and risk management, delivered through expertly managed in-house sessions tailored to organizational needs.",
+    "icon": "<path d=\"M3 8.4 12 4.5l9 3.9-9 3.9-9-3.9Z\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><path d=\"M6.8 10.6v4.6c0 1.6 2.4 2.8 5.2 2.8s5.2-1.2 5.2-2.8v-4.6\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"/>"
+  }
+]

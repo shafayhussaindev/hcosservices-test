@@ -1,0 +1,29 @@
+# Build output — regenerate with `npm run build`
+dist/
+
+# Never commit secrets. The live config lives on the server, outside the web
+# root, at ~/domains/hcosservices.com/private/
+private/
+config.php
+db.pass
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+hcos_deploy*
+
+# Server-owned: everything staff and attendees upload. Not part of the build.
+server/uploads/*
+!server/uploads/.htaccess
+!server/uploads/index.html
+
+# Local tooling
+node_modules/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+
+# Source material kept out of version control (large, and contains customer data)
+*.rar
+public/assets/clients-original/

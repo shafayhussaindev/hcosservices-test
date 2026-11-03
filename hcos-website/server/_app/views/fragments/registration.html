@@ -1,0 +1,96 @@
+<section class="register reveal" id="register" aria-labelledby="registerTitle">
+  <header class="register__head">
+    <h2 class="register__title" id="registerTitle">Register yourself</h2>
+    <p class="register__event">{{EVENT_TITLE}}</p>
+    <p class="register__text">Introduce yourself to the events team. We will email your registration details and contact you with confirmation and joining instructions.</p>
+    <p class="register__required">Fields marked <span aria-hidden="true">*</span> are required.</p>
+  </header>
+
+  <form class="form register__form" id="registerForm" novalidate enctype="multipart/form-data"
+        data-endpoint="{{FORM_ENDPOINT}}" data-fallback="{{FORM_FALLBACK_EMAIL}}"
+        data-subject="Registration: {{EVENT_TITLE}}">
+    {{FORM_HIDDEN}}
+    <input type="hidden" name="event" value="{{EVENT_TITLE}}">
+    <input type="hidden" name="form_type" value="event_registration">
+
+    <fieldset class="register__section">
+      <legend><span>01</span> Contact details</legend>
+      <div class="form__row">
+        <div class="form__field">
+          <label for="regName">Full name <span aria-hidden="true">*</span></label>
+          <input id="regName" name="name" type="text" placeholder="Your full name" autocomplete="name" minlength="2" maxlength="160" required>
+        </div>
+        <div class="form__field">
+          <label for="regEmail">Email address <span aria-hidden="true">*</span></label>
+          <input id="regEmail" name="email" type="email" placeholder="you@company.com" autocomplete="email" maxlength="190" required>
+        </div>
+        <div class="form__field form__field--full">
+          <label for="regPhone">Phone number <span aria-hidden="true">*</span></label>
+          <input id="regPhone" name="phone" type="tel" placeholder="+92 300 1234567" autocomplete="tel" maxlength="40" required>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="register__section">
+      <legend><span>02</span> Professional Information</legend>
+      <div class="form__row">
+        <div class="form__field">
+          <label for="regOrg">Organization <span aria-hidden="true">*</span></label>
+          <input id="regOrg" name="organization" type="text" placeholder="Company or institution" autocomplete="organization" maxlength="200" required>
+        </div>
+        <div class="form__field">
+          <label for="regRole">Designation <span aria-hidden="true">*</span></label>
+          <input id="regRole" name="designation" type="text" placeholder="Your role or job title" autocomplete="organization-title" maxlength="200" required>
+        </div>
+        <div class="form__field form__field--full">
+          <label for="regLinkedin">LinkedIn profile <span aria-hidden="true">*</span></label>
+          <input id="regLinkedin" name="linkedin_url" type="url" placeholder="https://www.linkedin.com/in/your-name" maxlength="512" aria-describedby="regLinkedinHelp" required>
+          <small id="regLinkedinHelp">Use the complete HTTPS link to your personal profile.</small>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="register__section">
+      <legend><span>03</span> Attendee details</legend>
+      <div class="form__row">
+        <div class="form__field form__field--full">
+          <label for="regPrice">Participant price <span aria-hidden="true">*</span></label>
+          <select id="regPrice" name="price_option" aria-describedby="regPriceHelp" required>
+            <option value="">Select an option</option>
+            <option value="corporate">Corporate Sector Rs:3000 per participant</option>
+            <option value="student">For Students Rs:1500 per Participant</option>
+          </select>
+          <small id="regPriceHelp">These options are subject to verification before payment can be accepted</small>
+        </div>
+        <div class="form__field form__field--full">
+          <label for="regGender">Gender <span aria-hidden="true">*</span></label>
+          <select id="regGender" name="gender" required>
+            <option value="">Select an option</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form__field form__field--full">
+          <label for="regHeadshot">Headshot photo <span aria-hidden="true">*</span></label>
+          <div class="register__upload">
+            <span class="register__upload-title">A clear photo of you</span>
+            <p id="regHeadshotHelp">JPG, PNG or WebP · up to 3 MB. This photo is private to the signed-in HCOS events team.</p>
+            <input id="regHeadshot" name="headshot" type="file" accept="image/jpeg,image/png,image/webp" data-max-bytes="3145728" aria-describedby="regHeadshotHelp" required>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="register__submit">
+      <p>Your details will only be used for this event only, and for registration purposes</p>
+      <button class="btn btn--primary" type="submit">Submit registration <span class="register__arrow" aria-hidden="true">↗</span></button>
+    </div>
+    <p class="form__notice" role="status" aria-live="polite" hidden></p>
+  </form>
+  <dialog class="registration-success" aria-labelledby="registrationSuccessTitle" aria-describedby="registrationSuccessMessage">
+    <h2 id="registrationSuccessTitle">Thank you for registering.</h2>
+    <p id="registrationSuccessMessage">Our Delegate Acquisition Team will reach out to you shortly.</p>
+    <form method="dialog"><button class="btn btn--primary" autofocus>Close</button></form>
+  </dialog>
+</section>

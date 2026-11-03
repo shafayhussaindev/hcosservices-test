@@ -1,0 +1,8 @@
+# Normalise line endings in the repo; check out native on Windows.
+* text=auto eol=lf
+*.webp binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.ico binary
+*.mp4 binary

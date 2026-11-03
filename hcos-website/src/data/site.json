@@ -1,0 +1,134 @@
+{
+  "name": "HCOS",
+  "legalName": "HCOS Services (Private) Limited",
+  "email": "info@hcosservices.com",
+  "phones": [
+    {
+      "label": "(021)34160979",
+      "href": "tel:+922134160979"
+    },
+    {
+      "label": "(021) 34637537",
+      "href": "tel:+922134637537"
+    }
+  ],
+  "cell": {
+    "label": "03103631599",
+    "href": "tel:+923103631599"
+  },
+  "address": "Suite # DD-1, Mezzanine floor Asia Pacific Trade Centre Rashid Minhas Road Karachi, Pakistan.",
+  "copyright": "HCOS SERVICES © 2016 All Rights Reserved",
+  "_note_social": "LinkedIn URL applied exactly as supplied by the client (Website Correction.pdf p.1). NOTE: it resolves to a Morgan Stanley company page, not HCOS — flagged to Alizah on 2026-09-18. Change this one value to correct it.",
+  "social": [
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/hcosservices/"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/hcosservices/"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/company/morgan-stanleyl/"
+    }
+  ],
+  "_note_portal": "PLACEHOLDER. Employees Portal has no destination yet.",
+  "employeesPortal": "/event-setup/",
+  "nav": [
+    {
+      "key": "home",
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "key": "about",
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "key": "services",
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "key": "events",
+      "label": "Events",
+      "href": "/events"
+    },
+    {
+      "key": "careers",
+      "label": "Career",
+      "href": "/careers"
+    },
+    {
+      "key": "newsroom",
+      "label": "Newsroom",
+      "href": "/newsroom"
+    },
+    {
+      "key": "contact",
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  ],
+  "sitemap": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Events",
+      "href": "/events"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "Newsroom",
+      "href": "/newsroom"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  ],
+  "_note_forms": "Form delivery. Leave endpoint empty until the client Gmail is available; forms then show a not-connected notice with a mailto fallback. To connect via Web3Forms: endpoint \"https://api.web3forms.com/submit\", hidden.access_key = the key emailed to the Gmail. Formspree works too: endpoint \"https://formspree.io/f/<id>\", hidden {}.",
+  "form": {
+    "endpoint": "",
+    "hidden": {},
+    "notifyEmail": "info@hcosservices.com"
+  },
+  "_note_counter": "Visitor counter. Seed = the number the old WordPress site displayed when it was retired (July 2026). The live count continues from there in the MySQL visits table via /api/visits.php. With no database the seed is shown statically and does not move.",
+  "visitorCounter": {
+    "enabled": true,
+    "seed": 21945
+  },
+  "contactSocial": [
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/hcosservices/"
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.me/923103631599"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/company/morgan-stanleyl/"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/hcosservices/"
+    }
+  ]
+}

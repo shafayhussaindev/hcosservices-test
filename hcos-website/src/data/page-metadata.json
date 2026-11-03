@@ -1,0 +1,65 @@
+{
+  "404": {
+    "route": "/404",
+    "title": "Page not found — HCOS",
+    "desc": "The page you were looking for does not exist.",
+    "nav": ""
+  },
+  "about": {
+    "route": "/about",
+    "title": "About Us — HCOS",
+    "desc": "Human Capital Optimization Services (Private) Limited (HCOS), established in 2015 and incorporated with the SECP in 2016, is a leading provider of integrated human resource solutions in Pakistan.",
+    "nav": "about"
+  },
+  "careers": {
+    "route": "/careers",
+    "title": "Careers — HCOS",
+    "desc": "There are no current openings at HCOS. Send a speculative application to info@hcosservices.com.",
+    "nav": "careers"
+  },
+  "contact": {
+    "route": "/contact",
+    "title": "Contact Us — HCOS",
+    "desc": "Have questions or need assistance? Our team is ready to help you with the information and support you need.",
+    "nav": "contact"
+  },
+  "events": {
+    "route": "/events",
+    "title": "Events — HCOS",
+    "desc": "From concept to execution, we design events that inspire teams, impress clients, and elevate brands.",
+    "nav": "events"
+  },
+  "index": {
+    "route": "/",
+    "title": "HCOS – Success Through People",
+    "desc": "HCOS Services (Private) Limited is a leader in the HR services industry, creating and delivering services that enable our clients to succeed in a highly competitive market place.",
+    "nav": "home",
+    "preload": "<link rel=\"preload\" as=\"image\" href=\"/assets/img/hero.webp\" imagesrcset=\"/assets/img/hero-mobile.webp 900w, /assets/img/hero.webp 1920w\" imagesizes=\"100vw\">"
+  },
+  "newsroom": {
+    "route": "/newsroom",
+    "title": "Newsroom — HCOS",
+    "desc": "Stay informed with our latest articles, announcements, and industry insights designed to keep you ahead.",
+    "nav": "newsroom"
+  },
+  "services": {
+    "route": "/services",
+    "title": "Services — HCOS",
+    "desc": "We provide professional solutions designed to help individuals and organizations grow through innovation, expertise, and reliable support.",
+    "nav": "services"
+  },
+  "share": {
+    "route": "/events/share",
+    "title": "Share your photos — HCOS",
+    "desc": "Thank you for registering. Share your photos and documents from the event with HCOS.",
+    "nav": "events",
+    "dynamic": [
+      "SHARE_TITLE",
+      "SHARE_EVENT",
+      "SHARE_BODY"
+    ]
+  },
+  "event-detail": {},
+  "job-detail": {},
+  "news-detail": {}
+}

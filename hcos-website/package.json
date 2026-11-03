@@ -1,0 +1,31 @@
+{
+  "name": "hcos-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HCOS Services React frontend with a PHP/MySQL backend.",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:backend": "node scripts/dev-backend.js",
+    "test:local": "node tests/local-dev.test.js",
+    "build": "vite build",
+    "build:static": "node scripts/build.cjs --static",
+    "preview": "vite preview",
+    "test": "node tests/event-popup.test.js && node tests/react.test.js && node tests/vite.test.js",
+    "postbuild": "node scripts/build.cjs --skip-client",
+    "test:backend": "node tests/registration.test.js"
+  },
+  "dependencies": {
+    "entities": "^8.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^29.1.1",
+    "vite": "^8.3.4"
+  },
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0"
+  },
+  "type": "module"
+}
